@@ -1,0 +1,12 @@
+stepDefinitions\SigninSteps.class
+stepDefinitions\SauceDemo.class
+runner\Task15Tester.class
+runner\DemoBlazeTester.class
+stepDefinitions\ExpandTesting.class
+runner\ExpandTestingTester.class
+stepDefinitions\Heroku.class
+stepDefinitions\DemoBlaze.class
+runner\HerokuTester.class
+runner\SauceDemoTester.class
+runner\TestRunner.class
+stepDefinitions\Task15.class
