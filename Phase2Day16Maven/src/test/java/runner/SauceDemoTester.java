@@ -6,7 +6,8 @@ import io.cucumber.testng.CucumberOptions;
     features = "src/test/resources/features/saucedemo.feature",
     glue = "stepDefinitions",
     //tags = "tag1",
-    plugin = {"pretty", "html:target/cucumber-reports"}
+    plugin = {"pretty", "json:target/cucumber-reports-json/Cucumber.json"} // Generate JSON report
+   // plugin = {"pretty", "html:target/cucumber-reports"}
 )
 
 public class SauceDemoTester extends AbstractTestNGCucumberTests 
